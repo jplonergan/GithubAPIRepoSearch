@@ -5,8 +5,9 @@ Simple Github repository search. Search by name/description and language.
 
 ### Usage
 
-The app can make up to 60 requests without api key.
-To use provider add your key to the /constants/genaric.js file
+The app can make up to 60 requests without Personal Access Token.
+To use Personal Access Token creat a Personal Access Token add your Personal Access Token to the /constants/genaric.js file
+
 [Create Personal Access Token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token)
 
 ```
