@@ -1,0 +1,119 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`>>>H O M E --- REACT-REDUX (Mount + wrapping in <Provider>) should render correctly <Search> component 1`] = `
+<Provider
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [Function],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+>
+  <Connect(Search)>
+    <Search
+      getRepos={[Function]}
+      repoLanguage="TypeScript"
+      selectRepoLanguage={[Function]}
+      setStringQuery={[Function]}
+      stringQuery=""
+    >
+      <div>
+        <h1>
+          TypeScript
+        </h1>
+        <div
+          className="slds-grid slds-wrap"
+        >
+          <div
+            className="slds-col slds-size_1-of-1 slds-small-size_1-of-1 slds-medium-size_4-of-6 slds-large-size_3-of-6 slds-p-around_small"
+          >
+            <span>
+              <input
+                className="slds-input"
+                id="base-id"
+                name="search"
+                onChange={[Function]}
+                placeholder="Repository Name"
+                value=""
+              />
+            </span>
+          </div>
+          <div
+            className="slds-col slds-size_1-of-1 slds-small-size_1-of-1 slds-medium-size_2-of-6 slds-large-size_2-of-6 slds-p-around_small"
+          >
+            <span>
+              <Picker
+                onChange={[Function]}
+                options={
+                  Array [
+                    "TypeScript",
+                    "Python",
+                  ]
+                }
+                value="TypeScript"
+              >
+                <span>
+                  <select
+                    className="slds-input"
+                    onChange={[Function]}
+                    value="TypeScript"
+                  >
+                    <option
+                      key="TypeScript"
+                      value="TypeScript"
+                    >
+                      TypeScript
+                    </option>
+                    <option
+                      key="Python"
+                      value="Python"
+                    >
+                      Python
+                    </option>
+                  </select>
+                </span>
+              </Picker>
+            </span>
+          </div>
+          <div
+            className="slds-col slds-size_1-of-1 slds-small-size_1-of-1 slds-medium-size_6-of-6 slds-large-size_1-of-6 slds-p-around_small"
+          >
+            <span
+              className="slds-float_right"
+            >
+              <SLDSButton
+                assistiveText={
+                  Object {
+                    "icon": "",
+                  }
+                }
+                disabled={false}
+                hint={false}
+                iconSize="medium"
+                label="Search"
+                onClick={[Function]}
+                responsive={false}
+                type="button"
+                variant="brand"
+              >
+                <button
+                  className="slds-button slds-button_brand"
+                  disabled={false}
+                  onClick={[Function]}
+                  type="button"
+                >
+                  Search
+                </button>
+              </SLDSButton>
+            </span>
+          </div>
+        </div>
+      </div>
+    </Search>
+  </Connect(Search)>
+</Provider>
+`;

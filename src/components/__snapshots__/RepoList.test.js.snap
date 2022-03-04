@@ -1,0 +1,237 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render correctly <RepoList> 1`] = `
+<Provider
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [Function],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+>
+  <Connect(RepoList)>
+    <RepoList
+      dispatch={[Function]}
+      repos={
+        Array [
+          Object {
+            "description": "Mock Description",
+            "html_url": "bbc.com",
+            "id": 1,
+            "language": "TypeScript",
+            "name": "Mock Title",
+            "topics": Array [
+              "topic1",
+            ],
+          },
+        ]
+      }
+    >
+      <article
+        className="slds-p-around_xx-small"
+        key="1"
+      >
+        <SLDSCard
+          heading="Mock Title"
+          icon={
+            <SLDSIcon
+              assistiveText={Object {}}
+              category="standard"
+              colorVariant="default"
+              name="document"
+              size="small"
+            />
+          }
+        >
+          <article
+            className="slds-card"
+          >
+            <SLDSCardHeader
+              filterId={null}
+              headerActionsId={null}
+              heading="Mock Title"
+              headingId={null}
+              icon={
+                <SLDSIcon
+                  assistiveText={Object {}}
+                  category="standard"
+                  colorVariant="default"
+                  name="document"
+                  size="small"
+                />
+              }
+            >
+              <div
+                className="slds-card__header slds-grid"
+              >
+                <SLDSMediaObject
+                  body={
+                    <h2
+                      className="slds-text-heading_small slds-truncate"
+                      id={null}
+                      title="Mock Title"
+                    >
+                      Mock Title
+                    </h2>
+                  }
+                  canTruncate={true}
+                  figure={
+                    <SLDSIcon
+                      assistiveText={Object {}}
+                      category="standard"
+                      colorVariant="default"
+                      name="document"
+                      size="small"
+                    />
+                  }
+                  verticalCenter={true}
+                >
+                  <div
+                    className="slds-media slds-media_center slds-has-flexi-truncate"
+                  >
+                    <div
+                      className="slds-media__figure"
+                    >
+                      <SLDSIcon
+                        assistiveText={Object {}}
+                        category="standard"
+                        colorVariant="default"
+                        name="document"
+                        size="small"
+                      >
+                        <span
+                          className="slds-icon_container slds-icon-standard-document"
+                        >
+                          <LanguageDirection(UtilityIcon)
+                            aria-hidden="true"
+                            category="standard"
+                            className="slds-icon slds-icon_small"
+                            name="document"
+                          >
+                            <UtilityIcon
+                              aria-hidden="true"
+                              category="standard"
+                              className="slds-icon slds-icon_small"
+                              direction="ltr"
+                              name="document"
+                            >
+                              <svg
+                                aria-hidden="true"
+                                className="slds-icon slds-icon_small"
+                                key="document_standard"
+                              >
+                                <use />
+                              </svg>
+                            </UtilityIcon>
+                          </LanguageDirection(UtilityIcon)>
+                        </span>
+                      </SLDSIcon>
+                       
+                    </div>
+                    <div
+                      className="slds-media__body"
+                    >
+                      <h2
+                        className="slds-text-heading_small slds-truncate"
+                        id={null}
+                        title="Mock Title"
+                      >
+                        Mock Title
+                      </h2>
+                    </div>
+                  </div>
+                </SLDSMediaObject>
+                <div
+                  className="slds-no-flex"
+                  id={null}
+                />
+              </div>
+            </SLDSCardHeader>
+            <SLDSCardBody
+              id={null}
+            >
+              <div
+                className="slds-card__body"
+                id={null}
+              >
+                <article
+                  className="slds-tile slds-p-around_small"
+                >
+                  <div
+                    className="slds-grid slds-wrap"
+                  >
+                    <div
+                      className="slds-col slds-size_6-of-6 slds-small-size_1-of-1 slds-medium-size_4-of-6 slds-large-size_3-of-6 slds-p-around_small"
+                    >
+                      <h3
+                        className="slds-tile__title slds-truncate"
+                        title="Salesforce UX"
+                      >
+                        <a
+                          href="bbc.com"
+                          rel="noreferrer"
+                          target="_blank"
+                        >
+                          View in Github
+                        </a>
+                      </h3>
+                      <div
+                        className="slds-tile__detail"
+                      >
+                        <dl
+                          className="slds-list_horizontal slds-wrap"
+                        >
+                          <dt
+                            className="slds-item_label slds-text-color_weak slds-truncate"
+                            title="Name"
+                          >
+                            Language:
+                          </dt>
+                          <dd
+                            className="slds-item_detail slds-truncate"
+                            title="Name Text"
+                          >
+                            TypeScript
+                          </dd>
+                          <dt
+                            className="slds-item_label slds-text-color_weak slds-truncate"
+                            title="Description"
+                          >
+                            Description:
+                          </dt>
+                          <dd
+                            className="slds-item_detail "
+                            title="Description Text"
+                          >
+                            Mock Description
+                          </dd>
+                          <dt
+                            className="slds-item_label slds-text-color_weak slds-truncate"
+                            title="Topics"
+                          >
+                            Topics:
+                          </dt>
+                          <dd
+                            className="slds-item_detail slds-truncate"
+                            title="Topics Text"
+                          >
+                             topic1
+                          </dd>
+                        </dl>
+                      </div>
+                    </div>
+                  </div>
+                </article>
+              </div>
+            </SLDSCardBody>
+          </article>
+        </SLDSCard>
+      </article>
+    </RepoList>
+  </Connect(RepoList)>
+</Provider>
+`;

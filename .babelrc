@@ -1,0 +1,14 @@
+{
+    "presets": [
+      "flow",
+      "env",
+      "react",
+      "@salesforce/babel-preset-design-system-react"
+    ],
+    "plugins": [
+      "transform-object-rest-spread",
+      "transform-runtime",
+      ["react-flow-props-to-prop-types", {  }]
+    ]
+  }
+  
