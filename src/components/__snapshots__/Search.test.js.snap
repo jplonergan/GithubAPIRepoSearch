@@ -22,8 +22,10 @@ exports[`>>>H O M E --- REACT-REDUX (Mount + wrapping in <Provider>) should rend
       stringQuery=""
     >
       <div>
-        <h1>
-          TypeScript
+        <h1
+          class="slds-text-heading_large slds-p-around_large"
+        >
+          Workday Github Repository Search
         </h1>
         <div
           className="slds-grid slds-wrap"
@@ -50,8 +52,17 @@ exports[`>>>H O M E --- REACT-REDUX (Mount + wrapping in <Provider>) should rend
                 onChange={[Function]}
                 options={
                   Array [
-                    "TypeScript",
+                    "C",
+                    "C++",
+                    "C#",
+                    "GO",
+                    "Java",
+                    "JavaScript",
+                    "PHP",
                     "Python",
+                    "Ruby",
+                    "Scala",
+                    "TypeScript",
                   ]
                 }
                 value="TypeScript"
@@ -63,16 +74,70 @@ exports[`>>>H O M E --- REACT-REDUX (Mount + wrapping in <Provider>) should rend
                     value="TypeScript"
                   >
                     <option
-                      key="TypeScript"
-                      value="TypeScript"
+                      key="C"
+                      value="C"
                     >
-                      TypeScript
+                      C
+                    </option>
+                    <option
+                      key="C++"
+                      value="C++"
+                    >
+                      C++
+                    </option>
+                    <option
+                      key="C#"
+                      value="C#"
+                    >
+                      C#
+                    </option>
+                    <option
+                      key="GO"
+                      value="GO"
+                    >
+                      GO
+                    </option>
+                    <option
+                      key="Java"
+                      value="Java"
+                    >
+                      Java
+                    </option>
+                    <option
+                      key="JavaScript"
+                      value="JavaScript"
+                    >
+                      JavaScript
+                    </option>
+                    <option
+                      key="PHP"
+                      value="PHP"
+                    >
+                      PHP
                     </option>
                     <option
                       key="Python"
                       value="Python"
                     >
                       Python
+                    </option>
+                    <option
+                      key="Ruby"
+                      value="Ruby"
+                    >
+                      Ruby
+                    </option>
+                    <option
+                      key="Scala"
+                      value="Scala"
+                    >
+                      Scala
+                    </option>
+                    <option
+                      key="TypeScript"
+                      value="TypeScript"
+                    >
+                      TypeScript
                     </option>
                   </select>
                 </span>

@@ -12,5 +12,4 @@ export const GITHUB_API_LANGUAGE_OPTIONS = [
   "Ruby",
   "Scala",
   "TypeScript",
-  "Python",
 ];

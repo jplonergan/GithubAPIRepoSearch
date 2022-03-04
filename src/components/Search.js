@@ -14,7 +14,7 @@ function Search({
 
   return (
     <div>
-      <h1 class="slds-text-heading_large slds-p-around_large">Workday Github Repository Search</h1>
+      <h1 className="slds-text-heading_large slds-p-around_large">Workday Github Repository Search</h1>
       <div className="slds-grid slds-wrap">
         <div className="slds-col slds-size_1-of-1 slds-small-size_1-of-1 slds-medium-size_4-of-6 slds-large-size_3-of-6 slds-p-around_small">
           <span>
