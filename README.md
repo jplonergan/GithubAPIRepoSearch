@@ -1,4 +1,4 @@
-# Github Repository Search with redux and sagas
+# Github Repository Search with redux and saga
 
 Simple Github repository search. Search by name/description and language.
 
