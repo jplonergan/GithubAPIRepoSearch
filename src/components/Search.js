@@ -23,7 +23,7 @@ function Search({
               className="slds-input"
               name="search"
               value={stringQuery}
-              placeholder="Repository Name"
+              placeholder="Search Repository Name/Description"
               onChange={(e) => handleInputChange(e.target.value)}
             />
           </span>

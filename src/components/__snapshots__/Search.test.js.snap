@@ -23,7 +23,7 @@ exports[`>>>H O M E --- REACT-REDUX (Mount + wrapping in <Provider>) should rend
     >
       <div>
         <h1
-          class="slds-text-heading_large slds-p-around_large"
+          className="slds-text-heading_large slds-p-around_large"
         >
           Workday Github Repository Search
         </h1>
@@ -39,7 +39,7 @@ exports[`>>>H O M E --- REACT-REDUX (Mount + wrapping in <Provider>) should rend
                 id="base-id"
                 name="search"
                 onChange={[Function]}
-                placeholder="Repository Name"
+                placeholder="Search Repository Name/Description"
                 value=""
               />
             </span>
